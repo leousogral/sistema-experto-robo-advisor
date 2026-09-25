@@ -69,7 +69,7 @@ with st.sidebar:
         value=20,
     )
 
-st.subheader("Contexto de mercadoooooooooooooo")
+st.subheader("Contexto de mercado")
 c1, c2, c3 = st.columns(3)
 
 with c1:
