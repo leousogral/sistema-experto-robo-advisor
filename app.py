@@ -1,6 +1,6 @@
 import json
-import pandas as pd
-import streamlit as st
+import pandas as pd # type: ignore
+import streamlit as st # type: ignore
 
 from motor_experto import ejecutar_motor
 
@@ -69,7 +69,7 @@ with st.sidebar:
         value=20,
     )
 
-st.subheader("Contexto de mercado")
+st.subheader("Contexto de mercadoooooooooooooo")
 c1, c2, c3 = st.columns(3)
 
 with c1:

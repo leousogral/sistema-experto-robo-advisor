@@ -12,7 +12,7 @@ if not hasattr(collections, "MutableMapping"):
 if not hasattr(collections, "Sequence"):
     collections.Sequence = collections.abc.Sequence
 
-from experta import (
+from experta import ( # type: ignore
     Fact,
     KnowledgeEngine,
     Rule,
