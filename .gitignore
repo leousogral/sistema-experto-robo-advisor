@@ -1,0 +1,84 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# =========================
+# Entornos virtuales
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Variables de entorno / secretos
+# =========================
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# =========================
+# Pytest / coverage
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# =========================
+# IDEs / editores
+# =========================
+.vscode/
+.idea/
+*.code-workspace
+
+# =========================
+# Sistema operativo
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Archivos temporales
+# =========================
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# =========================
+# Build / distribución
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Archivos comprimidos
+# =========================
+*.zip
+*.rar
+*.7z
